@@ -2,9 +2,51 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid rgb(190, 190, 190);
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.logo {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.url {
+  font-weight: lighter;
+}
+
+.image {
+  width: 200px;
+  margin-right: 16px;
+}
+
+.install-button {
+  width: 100px;
+  height: 40px;
+}
+
+.container {
+  padding: 8px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  overflow-y: scroll;
+  overflow-x: unset;
 }
 
 @media (prefers-reduced-motion: no-preference) {
